@@ -1,5 +1,9 @@
 language: scala
 
+# https://travis-ci.community/t/is-rabbitmq-service-down/4362
+# Explictly use trusty until rabbitmq is available in xenial
+dist: trusty
+
 scala:
   - 2.12.6
   - 2.11.12
